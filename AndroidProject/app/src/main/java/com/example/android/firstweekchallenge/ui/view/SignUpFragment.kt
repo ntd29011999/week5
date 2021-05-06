@@ -15,7 +15,6 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.android.firstweekchallenge.R
 import com.example.android.firstweekchallenge.data.Account
 import com.example.android.firstweekchallenge.data.DataStore
-import com.example.android.firstweekchallenge.databinding.ActivitySignupBinding
 import com.example.android.firstweekchallenge.databinding.FragmentLoginBinding
 import com.example.android.firstweekchallenge.databinding.FragmentSignUpBinding
 import com.example.android.firstweekchallenge.ui.viewmodel.InfoViewModel

@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.android.firstweekchallenge.R
 import com.example.android.firstweekchallenge.data.RestaurantAdapter
 import com.example.android.firstweekchallenge.data.getData
-import com.example.android.firstweekchallenge.databinding.ActivityListrestaurantBinding
 import com.example.android.firstweekchallenge.databinding.FragmentListRestaurantBinding
 import com.example.android.firstweekchallenge.databinding.FragmentLoginBinding
 import com.example.android.firstweekchallenge.ui.viewmodel.RestaurantViewModel

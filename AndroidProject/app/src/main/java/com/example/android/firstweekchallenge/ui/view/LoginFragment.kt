@@ -15,7 +15,6 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.android.firstweekchallenge.R
 import com.example.android.firstweekchallenge.data.Account
 import com.example.android.firstweekchallenge.data.DataStore
-import com.example.android.firstweekchallenge.databinding.ActivityLoginBinding
 import com.example.android.firstweekchallenge.databinding.FragmentLoginBinding
 import com.example.android.firstweekchallenge.ui.viewmodel.InfoViewModel
 import com.example.android.firstweekchallenge.ui.viewmodel.MainViewModelFactory
@@ -52,8 +51,6 @@ class LoginFragment : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val intentSignUpActivity = Intent(activity, SignUpActivity::class.java)
-        val intentListRestaurantActivity = Intent(activity, ListRestaurantActivity::class.java)
         setupViewModel()
         binding.btnSignUp.setOnClickListener {
             // chay frament khac
